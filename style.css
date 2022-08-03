@@ -1,0 +1,99 @@
+
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(100, 80, 56);
+  font-size: 20px;
+  line-height: 1.6;
+}
+ h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(100, 80, 56);
+  font-size: 40px;
+  line-height: 2;
+ }
+
+ a:hover {
+  color: gray;
+  text-decoration: underline;
+ }
+
+ .container {
+  width: 400px;   /* Définit la largeur */
+  margin: 0 auto;
+  text-align: center;
+ }
+
+ .card {
+  background-color:rgb(246, 246, 238);
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+.img-circle {
+  border-radius: 45%;
+}
+
+.btn {
+  background-color: rgb(109, 55, 55);
+  color: bisque;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  body {
+    background-color: rgb(181, 204, 229);
+    color:rgb(246, 246, 238);
+  }
+  h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(81, 91, 224);
+  }
+  .btn {
+    background-color: rgb(49, 62, 160);
+  color: rgb(145, 157, 218);
+  }
+  .container {
+    width: 400px;
+  }
+  .card {
+    background-color: rgb(119, 199, 199);
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  body {
+    background-color: rgb(214, 5, 214);
+    color:rgb(246, 246, 238);
+  }
+  h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: purple;
+  }
+  .btn {
+    background-color: rgb(168, 77, 134);
+  color: rgb(240, 147, 217);
+  }
+  .container {
+    width: 400px;
+  }
+  .card {
+    background-color: pink;
+  }
+
+}
